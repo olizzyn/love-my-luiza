@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useInView } from 'framer-motion';
-import { Heart, HeartHandshake, Calendar, Clock, Sparkles, Star } from 'lucide-react';
+import { Heart, Calendar, Clock, Sparkles, Star } from 'lucide-react';
 
 import imgMine from './assets/image.png'
 import imgNois from './assets/image2.png'
@@ -529,7 +529,7 @@ const RomanticPage = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            <HeartHandshake className="inline-block mr-2" size={20} />
+            <Heart className="inline-block mr-2" size={20} />
             Te amo muitooo
           </motion.button>
           
@@ -899,7 +899,7 @@ const RomanticPage = () => {
             }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            <HeartHandshake className="inline-block mr-2" size={24} />
+            <Heart className="inline-block mr-2" size={24} />
             Clica aqui meu amorzinho
           </motion.button>
         </motion.div>
